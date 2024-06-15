@@ -1,8 +1,7 @@
-# DT_python
-Desision Tree
-# Loan Data Analysis and Predictive Modeling
 
-This project details the process of analyzing loan data and building predictive models to determine whether loans are likely to be fully paid. The analysis includes data preprocessing, visualization, and the application of machine learning models using Decision Tree and Random Forest classifiers.
+# Data Analysis and Predictive Modeling using Python
+
+This project details the process of analyzing loan data and building predictive models to determine whether loans (dataset) are likely to be fully paid. The analysis includes data preprocessing, visualization, and the application of machine learning models using Decision Tree and Random Forest classifiers.
 
 ## Execution steps
 
@@ -13,7 +12,10 @@ This project details the process of analyzing loan data and building predictive 
 ## tools
 - Jupyter Notebook
 - Python
-
+- numpy
+- pandas
+- seaborn
+  
 ## Structure of Code
 We begin by loading and examining the dataset.
 
