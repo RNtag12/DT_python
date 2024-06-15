@@ -9,7 +9,7 @@ This project details the process of analyzing loan data and building predictive 
 2. Download code file
 3. Upload the loan_data in the same directory as the code
 
-## tools
+## Tools
 - Jupyter Notebook
 - Python
 - numpy
