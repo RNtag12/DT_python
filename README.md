@@ -29,7 +29,7 @@ data = pd.read_csv('loan_data.csv')
 data.head()
 ```
 
-### Data Structure
+### Structure of Code
 
 ```plaintext
    credit.policy          purpose  int.rate  installment  log.annual.inc    dti  fico  days.with.cr.line  revol.bal  revol.util  inq.last.6mths  delinq.2yrs  pub.rec  not.fully.paid
