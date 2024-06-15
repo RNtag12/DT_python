@@ -4,18 +4,17 @@ Desision Tree
 
 This project details the process of analyzing loan data and building predictive models to determine whether loans are likely to be fully paid. The analysis includes data preprocessing, visualization, and the application of machine learning models using Decision Tree and Random Forest classifiers.
 
-## Table of Contents
-1. Introduction
-2. Data Overview
-3. Data Analysis and Visualization
-4. Data Preprocessing
-5. Model Building and Evaluation
-6. Conclusion
+## Execution steps
 
-## 1. Introduction
-Loan default prediction is a crucial task in the finance industry. Accurate predictions help lenders minimize risks and make informed decisions. This project aims to explore a dataset of loan applications, analyze the features, and build predictive models to classify loans as fully paid or not fully paid.
+1. Download the loan_data file
+2. Download code file
+3. Upload the loan_data in the same directory as the code
 
-## 2. Data Overview
+## tools
+- Jupyter Notebook
+- Python
+
+## Structure of Code
 We begin by loading and examining the dataset.
 
 ```python
@@ -29,7 +28,7 @@ data = pd.read_csv('loan_data.csv')
 data.head()
 ```
 
-### Structure of Code
+### Read the loan_data file
 
 ```plaintext
    credit.policy          purpose  int.rate  installment  log.annual.inc    dti  fico  days.with.cr.line  revol.bal  revol.util  inq.last.6mths  delinq.2yrs  pub.rec  not.fully.paid
