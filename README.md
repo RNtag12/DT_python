@@ -24,13 +24,15 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 %matplotlib inline
 
-data = pd.read_csv('loan_data.csv')
-data.head()
+
 ```
 
 ### Read the loan_data file
 
-```plaintext
+```python
+data = pd.read_csv('loan_data.csv')
+data.head()
+
    credit.policy          purpose  int.rate  installment  log.annual.inc    dti  fico  days.with.cr.line  revol.bal  revol.util  inq.last.6mths  delinq.2yrs  pub.rec  not.fully.paid
 0             1  debt_consolidation   0.1189      829.10       11.350407  19.48   737         5639.958333     28854       52.1              0            0       0             0
 1             1         credit_card   0.1071      228.22       11.082143  14.29   707         2760.000000     33623       76.7              0            0       0             0
@@ -40,19 +42,17 @@ data.head()
 ```
 
 ### Data Summary
+Dataset information is analyzed to get initial insight about it .
 
 ```python
 data.info()
 data.describe()
 ```
-
-### Data Columns
-
 ```python
 data.columns
 ```
 
-## 3. Data Analysis and Visualization
+## Data Analysis and Visualization
 We visualize the data to gain insights into the distribution and relationships between variables.
 
 ```python
@@ -70,7 +70,7 @@ plt.figure(figsize=(10,6))
 sns.countplot(data=data, x='purpose', hue='not.fully.paid')
 ```
 
-## 4. Data Preprocessing
+## Data Preprocessing
 We preprocess the data by scaling numeric features and encoding categorical variables.
 
 ```python
@@ -89,7 +89,7 @@ X = df.drop('not.fully.paid', axis=1)
 y = df['not.fully.paid']
 ```
 
-## 5. Model Building and Evaluation
+##  Model Building and Evaluation
 We split the data into training and testing sets and apply two machine learning models: Decision Tree and Random Forest.
 
 ### Train-Test Split
