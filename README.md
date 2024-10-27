@@ -17,7 +17,7 @@ This project details the process of analyzing loan data and building predictive 
 - seaborn
   
 ## Structure of Code
-We begin by loading and examining the dataset.
+We begin by loading and examining the dataset
 
 ```python
 import pandas as pd
